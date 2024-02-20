@@ -9,7 +9,7 @@ room: collaborationserverurl
 storage: storagebackendurl
 
 imageSources:
-  FrontEndImage: quay.apps.mgmt1.ocp.trafikverket.local/registry-1.docker.io/ponchoe/excalidraw:release-beta-3.15
+  FrontEndImage: registry-1.docker.io/ponchoe/excalidraw:release-beta-3.15
 
 # component urls
 components:
