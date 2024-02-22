@@ -14,7 +14,7 @@ spec:
     metadata:
       creationTimestamp: null
       labels:
-        io.kompose.network/rita-default: "true"
+        io.kompose.network/excalidrawcollab-default: "true"
         io.kompose.service: storage
     spec:
       serviceAccountName: excalidrawcollab
