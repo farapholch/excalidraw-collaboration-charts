@@ -41,7 +41,7 @@ spec:
             - name: VITE_APP_WS_SERVER_URL
               value: {{ .Values.components.Collaboration | quote }}
 
-          image: {{ .Values.imageSources.FrontEndImage | quote }}
+          image: {{ .Values.image.repository | quote }}
           
           name: frontend
           ports:
