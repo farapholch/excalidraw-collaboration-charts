@@ -17,7 +17,7 @@ spec:
         io.kompose.network/excalidrawcollab-default: "true"
         io.kompose.service: storage
     spec:
-      serviceAccountName: excalidrawcollab
+      serviceAccountName: {{ .Values.serviceAccount.name | quote }}
       containers:
         - env:
             - name: PORT
