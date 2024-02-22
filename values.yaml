@@ -8,9 +8,6 @@ frontend: frontendurl
 room: collaborationserverurl
 storage: storagebackendurl
 
-imageSources:
-  FrontEndImage: alswl/excalidraw:v0.17.0-fork-b2
-
 # component urls
 components:
   FrontEnd: https://frontendurl/api/v2/
@@ -28,7 +25,7 @@ Redis:
 replicaCount: 1
 
 image:
-  repository: quay.apps.mgmt1.ocp.trafikverket.local/registry-1.docker.io/ponchoe/excalidraw
+  repository: alswl/excalidraw:v0.17.0-fork-b2
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
