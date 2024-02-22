@@ -21,7 +21,7 @@ spec:
         io.kompose.network/redis-723-default: "true"
         io.kompose.service: redis
     spec:
-      serviceAccountName: rita-beta
+      serviceAccountName: excalidrawcollab
       containers:        
         - image: registry-1.docker.io/library/redis
           args:
