@@ -1,1 +1,1 @@
-Helm chart for deploying Excalidrawcolla fork on kubernetes.
+Helm chart for deploying Excalidrawcollab fork on kubernetes.
