@@ -9,9 +9,8 @@ room: collaborationserverurl
 storage: storagebackendurl
 
 # component urls
-components:
-  FrontEnd: https://frontendurl/api/v2/
-  BackendPostUrl: https://frontendurl/v2/post/
+components:  
+  BackendGetAndPostUrl: https://frontendurl/api/scenes/
   StorageBackend: https://storagebackendurl/api/v2
   Collaboration: https://collaborationserverurl
 
