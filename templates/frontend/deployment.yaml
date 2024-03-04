@@ -24,10 +24,10 @@ spec:
               value: "8081"
 
             - name: VITE_APP_BACKEND_V2_GET_URLls
-              value: {{ .Values.components.FrontEnd | quote }}
+              value: {{ .Values.components.BackendGetAndPostUrl | quote }}
 
             - name: VITE_APP_BACKEND_V2_POST_URL
-              value: {{ .Values.components.BackendPostUrl | quote }} 
+              value: {{ .Values.components.BackendGetAndPostUrl | quote }} 
 
             - name: VITE_APP_FIREBASE_CONFIG
               value: '{}'
