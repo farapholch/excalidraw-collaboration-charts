@@ -17,7 +17,6 @@ spec:
         io.kompose.network/excalidraw-default: "true"
         io.kompose.service: frontend
     spec:
-      serviceAccountName: {{ .Values.serviceAccount.name | quote }}
       containers:
         - env:
             - name: PORT
