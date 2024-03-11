@@ -19,9 +19,7 @@ spec:
     spec:
       containers:
         - env:
-            - name: PORT
-              value: "8081"
-
+        
             - name: VITE_APP_BACKEND_V2_GET_URLls
               value: {{ .Values.components.BackendGetAndPostUrl | quote }}
 
