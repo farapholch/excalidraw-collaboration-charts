@@ -18,8 +18,7 @@ spec:
         io.kompose.service: frontend
     spec:
       containers:
-        - env:
-        
+        - env:        
             - name: VITE_APP_BACKEND_V2_GET_URLls
               value: {{ .Values.components.BackendGetAndPostUrl | quote }}
 
