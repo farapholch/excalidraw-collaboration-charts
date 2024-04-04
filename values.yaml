@@ -24,7 +24,7 @@ Redis:
 replicaCount: 1
 
 image:
-  repository: alswl/excalidraw:v0.17.0-fork-b2
+  repository: alswl/excalidraw:v0.17.3-fork-b1
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
